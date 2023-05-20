@@ -1,0 +1,52 @@
+body {
+  background-color: #edf4fb;
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 3rem;
+  border: thin solid #cbd2e8;
+}
+
+.sampletd {
+  color: #8394c5;
+}
+.sampleth {
+  color: #3e4765;
+  font-weight: bold;
+}
+
+.allitmes-div th {
+  text-align: left;
+  padding: 1rem;
+  color: #596998;
+  border-bottom: 1px solid #e5e4e7;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.allitmes-div td {
+  text-align: left;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+.alit {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px 1px #dfe3eb;
+}
+
+.sampletd svg {
+  font-size: 1.2rem;
+}
+.mainallitemdiv {
+  position: relative;
+  top: 3rem;
+}
+.searchbar-allitems {
+  position: absolute;
+  right: 0;
+  top: -3.5rem;
+}

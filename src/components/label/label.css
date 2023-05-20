@@ -1,0 +1,16 @@
+.cat-lables {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+li {
+  color: #3e4765;
+  font-size: 14px;
+}
+
+.cat-lables input[type="checkbox"]:checked {
+  border-color: red !important;
+  background-color: red;
+}
+
